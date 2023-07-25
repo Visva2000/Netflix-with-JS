@@ -320,6 +320,13 @@ option{
 .buttontoggle{
   margin-bottom: 1px;
 }
+.symbol{
+  font-size: 40px;
+  
+}
+.symbolRotate{
+  transform: rotate(45deg);
+} 
 .questionSection{
   /* border: 1px solid red; */
   display: flex;

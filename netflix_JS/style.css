@@ -306,10 +306,6 @@ option{
     
 }
 
-.accor-image{
-    height: 30px;
-    width: 30px;
-}
 .toggle{
     /* overflow: visible; */
     display: flex;

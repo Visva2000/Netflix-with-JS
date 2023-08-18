@@ -45,8 +45,6 @@ nav{
     
 }
 .hero{
-    
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("	https://assets.nflxext.com/ffe/siteui/vlv3/d282a426-b01a-424c-9b83-2c2445e4b61a/f7eb3bc2-2867-4c7e-94f8-e62ec11175cd/IN-en-20230626-popsignuptwoweeks-perspective_alpha_website_small.jpg");
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,10 +52,12 @@ nav{
     position: relative;
     border-bottom: 5px solid gray;
     font-weight: 300;
+    background-color: black;
 }
 .hero-img{
     width: 100%;
     height: 600px;
+    opacity: 0.4;
 }
 .topbar{
     display: flex;
@@ -161,10 +161,6 @@ option{
 
   .subscription{
     display: flex;
-    /* position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     justify-content: center;
     align-items: center;
   }
@@ -195,7 +191,6 @@ option{
     flex-direction: row-reverse;
    
     height: 500px;
-    /* border: 1px solid red; */
     align-items: center;
     border-bottom: 5px solid gray;
     
@@ -205,7 +200,7 @@ option{
     text-align: center;
     width: 60%;
     height: 200px;
-    /* border: 1px solid blue; */
+  
     
   }
   .cont-text h1{
@@ -218,7 +213,6 @@ option{
   .pic{
     width: 40%;
     height: 300px;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -227,14 +221,12 @@ option{
   .image{
     width: 100%;
     height: 100%;
-    /* border: 1px solid red; */
 
   }
   .page-cont1{
     display: flex;
     position: relative;
     height: 500px;
-    /* border: 1px solid red; */
     align-items: center;
     border-bottom: 5px solid gray;
   }
@@ -242,7 +234,6 @@ option{
     display: flex;
     position: relative;
     margin-top: 100px;
-    /* border: 1px solid red; */
     border-top: 10px solid gray;
 }
 .accordian {
@@ -286,7 +277,6 @@ option{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
-    /* transition:0.5s linear; */
    font-size: 20px;
 }
 .textcontainers{
@@ -307,7 +297,6 @@ option{
 }
 
 .toggle{
-    /* overflow: visible; */
     display: flex;
     justify-content: start;
     align-items: center;
@@ -324,24 +313,17 @@ option{
   transform: rotate(45deg);
 } 
 .questionSection{
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
   border-bottom: 5px solid gray;
-  
-  
 }
 
 
 .footer{
   width: 100%;
   display: flex;
-  
-   
-
 }
 
 
@@ -349,12 +331,10 @@ option{
   display: flex;
   flex-direction: column;
   gap: 20px;
-  
   color: white; 
    margin: 80px;
    margin-top: 40px;
    margin-bottom: 40px;
-   /* margin-right: 0; */
    width: 30%;
 }
 .footercard1button{
